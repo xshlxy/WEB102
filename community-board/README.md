@@ -1,36 +1,32 @@
-# Web Development Project 1 - _Name of App Here_
+# Web Development Project 1 - _HLSU Community Board_
 
 Submitted by: **Ashley Oliveira Andrade**
 
-This web app: **insert description**
+This web app: **is a simple, easy-to-use app for the Hispanic/Latinx Student Union at FSU. It showcases upcoming events with event images, titles, dates, times, locations, and links to informational pages for more details. Stay informed and connected with everything happening in our HLSU community through this convenient event board!**
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [ x ] **There is a unique theme for events or resources relevant to a specific community**
+- [ x ] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you added to improve the site's functionality!
+- [ x ] Buttons or links to a related resources are on each card component
+- [ x ] The site is responsive for both desktop and mobile formats
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./src/assets/community-board-demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
+GIF created with LICEcap
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
@@ -39,11 +35,11 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Getting the information and inputing into the website took some time but overall it wasn't that bad. In future iterations I would like to categorize the events by organization and add some search/filter functionality to it.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024 Ashley Oliveira Andrade
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
