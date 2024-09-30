@@ -20,7 +20,7 @@ The following **optional** features are implemented:
 
 - [x] Cards contains images in addition to or in place of text
 - [x] Cards have different visual styles such as color based on their category
-  - [ ] _Colors in the answer that shows difficulty of question. Easy(green), Medium(yellow), Hard(blue)_
+  - [x] _Colors in the answer that shows difficulty of question. Easy(green), Medium(yellow), Hard(blue)_
 
 The following **additional** features are implemented:
 
@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='./flashcard-app/src/assets/flashcard-app-demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='flashcard-app/src/assets/flashcard-app-demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
