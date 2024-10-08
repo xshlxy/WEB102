@@ -1,0 +1,64 @@
+.card {
+    width: 300px; /* Fixed width for uniformity */
+    height: 400px; /* Fixed height for uniformity */
+    perspective: 1000px; /* Gives depth for 3D effect */
+    cursor: pointer;
+    position: relative; /* Set position relative to allow absolute positioning of children */
+  }
+  
+  .card .front,
+  .card .back {
+    width: 100%;
+    height: 100%;
+    position: absolute; /* Allow front and back to overlap */
+    backface-visibility: hidden; /* Hide the back when the front is visible */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    transition: transform 0.6s; /* Smooth transition for flip effect */
+    border-radius: 15px;
+    padding: 20px; /* Padding for content spacing */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+    background-color: #ffffff; /* Set background color */
+  }
+  
+  .card .back {
+    transform: rotateY(180deg); /* Start rotated to hide it initially */
+  }
+  
+  .card.flipped .front {
+    transform: rotateY(180deg); /* Rotate front when flipped */
+  }
+  
+  .card.flipped .back {
+    transform: rotateY(0deg); /* Show back when flipped */
+  }
+  
+  .card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Space below the image */
+  }
+  
+  .card-question,
+  .card-answer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem; /* Responsive font size */
+    margin: 10px 0; /* Vertical margin for spacing */
+    color: #333; /* Text color */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .correct-mark {
+    color: green; /* Color for correct mark */
+  }
+  
+  .incorrect-mark {
+    color: red; /* Color for incorrect mark */
+  }
+  
