@@ -1,8 +1,8 @@
-# Web Development Project 2 - _LinguaBrasil_
+# Web Development Project 3 - _LinguaBrasil_
 
 Submitted by: **Ashley Oliveira Andrade**
 
-This web app: **aims to help users learn some basic portuguese through the usage of flashcards**
+This web app: **aims to help users learn some basic portuguese through the usage of flashcards and a quiz system**
 
 Time spent: **3** hours spent in total
 
