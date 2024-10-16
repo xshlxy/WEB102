@@ -34,7 +34,7 @@ function App() {
   }
 
   if (!list) return <div>Loading...</div>;
-  
+
   return (
     <div className="whole-page">
       <h1>My Crypto List</h1>

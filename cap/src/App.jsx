@@ -3,7 +3,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import APIForm from './components/APIform';
 const ACCESS_KEY = import.meta.env.VITE_APP_ACCESS_KEY;
-import Gallery from './Components/gallery';
+import Gallery from './components/gallery';
 
 
 function App() {
