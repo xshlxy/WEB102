@@ -1,61 +1,63 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.dashboard {
+  padding: 20px;
+}
+
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.navbar {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar ul {
+  list-style: none;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.navbar li {
+  display: inline;
+  margin-right: 15px;
+  color: white;
 }
 
-.card {
-  padding: 2em;
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
 }
 
-.read-the-docs {
-  color: #888;
-}
-
-.dashboard {
+.gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  justify-content: space-around;
 }
 
-.superhero-card {
+.recipe-card {
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 5px;
   padding: 10px;
+  margin: 10px;
+  width: 200px;
   text-align: center;
-  width: 150px;
 }
 
-.superhero-card img {
-  max-width: 100%;
-  border-radius: 4px;
+.pagination {
+  margin-top: 20px;
+}
+
+.search-bar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }

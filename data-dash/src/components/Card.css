@@ -1,0 +1,19 @@
+.stat-card {
+    background: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 10px; /* Margin between cards */
+    padding: 20px; /* Padding inside the card */
+    text-align: center; /* Centered text */
+    flex: 1; /* Allow cards to grow equally */
+  }
+  
+  .value {
+    font-size: 2rem; /* Larger font size for the value */
+    font-weight: bold; /* Bold text */
+    color: #007BFF; /* Blue color for value */
+  }
+  
+  .description {
+    color: #555; /* Grey color for description */
+  }
