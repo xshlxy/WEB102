@@ -1,0 +1,18 @@
+.recipe-card {
+    background: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 15px; /* Margin between cards */
+    padding: 15px; /* Padding inside the card */
+    text-align: center; /* Centered text */
+    transition: transform 0.2s; /* Smooth hover effect */
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .recipe-card img {
+    max-width: 100%; /* Responsive image */
+    border-radius: 8px; /* Rounded image corners */
+  }

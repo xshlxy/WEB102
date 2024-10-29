@@ -1,0 +1,71 @@
+.dashboard {
+  padding: 20px;
+}
+
+
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 15px;
+  color: white;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.search-bar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.main-content {
+  margin-left: 220px; /* Adjusted to accommodate the sidebar width */
+  padding: 15px; /* Padding for spacing */
+  flex-grow: 1; /* Allow the main content to grow */
+  overflow: auto; /* Allow scrolling if needed */
+}
