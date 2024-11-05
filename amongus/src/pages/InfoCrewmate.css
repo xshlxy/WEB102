@@ -1,0 +1,31 @@
+
+.name {
+    color:white;
+    padding-left:30px;
+    font-size: 24px;
+}
+
+.speed {
+    color:white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.color {
+    color:white;  
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.editButton {
+    width: 30px;
+    float:right;
+
+}
+.editButton:hover {
+    cursor: pointer;
+}
