@@ -1,0 +1,96 @@
+.Card {
+    background-color: #ffffff; /* Light background for the card */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.2s;
+  text-align: center;
+  max-width: 300px;
+  margin: 10px auto;
+}
+
+.Card:hover {
+    transform: scale(1.02);
+}
+
+.title {
+    font-size: 1.5em;
+  color: #ff69b4; 
+  margin-bottom: 5px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.author {
+    color:#6b705c;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.description {
+    color:#333;  
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    margin-top:10px;
+    font-size: 0.9em;
+}
+
+.likeButton {
+    background-color: #ffd1dc; /* Pastel pink for the button */
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    margin-top: 15px;
+}
+.likeButton:hover {
+    background-color: #ff99b6;
+    transform: scale(1.05);
+  }
+
+.moreButton {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+
+}
+  
+  .moreButton::after {
+    content: "More Info";
+    position: absolute;
+    top: -25px;
+    right: -10px;
+    background-color: #ffd1dc;
+    color: #333;
+    font-size: 0.8em;
+    padding: 5px;
+    border-radius: 8px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.2s, transform 0.2s;
+    white-space: nowrap;
+  }
+  
+  .moreButton:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+@keyframes likeAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  .likeButton:active {
+    animation: likeAnimation 0.3s ease;
+  }

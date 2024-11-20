@@ -1,0 +1,98 @@
+.App {
+  font-family:Avenir, "Century Gothic", sans-serif;
+  font-weight:100; 
+  font-style:normal;
+  font-size: calc(10px + 2vmin);
+  color: #333;
+  justify-content: center;
+  background-color: #fef9e6;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+  background-color: #ffb3c6; /* Soft pink */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 3em;
+  color: #ff69b4; /* Vibrant pink for a cute header */
+  margin-bottom: 5px;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* or another playful font */
+}
+
+.headerBtn {
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+
+.ReadPosts {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+button {
+  border-radius: 20px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffd1dc;
+  color:#333;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+button:hover {
+  border-color: #ff99b6;
+  transform: scale(1.05);
+}
+
+.headerBtn {
+  background-color: #ffd1dc; /* Soft pastel pink */
+  border-radius: 20px;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.headerBtn:hover {
+  background-color: #ff99b6;
+  transform: scale(1.05);
+}
+
+.post-card{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.post-card:hover {
+  transform: scale(1.02);
+}
+
+.tagline{
+  font-size: 1.2em;
+  color: #6b705c;
+  margin-top: -10px;
+}
+
+a:hover, img:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
