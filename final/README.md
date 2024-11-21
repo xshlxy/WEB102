@@ -2,9 +2,9 @@
 
 Submitted by: **Ashley Oliveira Andrade**
 
-This web app: **This is a creative space where you can share your passion, learn from others, and dive into everything arts and crafts! Whether it’s painting, sculpting, knitting, or any other creative hobby, here’s your place to connect and share. Users can comment and like posts, and they can create, edit, and delete their own.**
+This web app: **This is a creative space where you can share your passion, learn from others, and dive into everything arts and crafts! Whether it’s painting, sculpting, knitting, or any other creative hobby, here’s your place to connect and share. Users can like posts, and they can create, edit, and delete their own.**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
@@ -41,10 +41,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./src/components/final_demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LICEcap  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -52,7 +52,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+This app was the ulmination of this class, it wasn't that complicated to make it. I think that if I put more time into it I will be able to make something even cooler.
 
 ## License
 
